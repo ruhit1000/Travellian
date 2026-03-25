@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from '../../assets/Logo.png';
-import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-transparent text-base-100 container mx-auto py-4">
+        <div className="navbar bg-transparent text-base-100 container mx-auto py-4 font-rubik">
             <div className="navbar-start">
                 <a><img src={logo} alt="Logo" /></a>
             </div>
