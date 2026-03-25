@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Custom styles can be added here */
+@utility btn-primary {
+  @apply bg-[#FF7757] border-none text-white shadow-none py-6 px-8 rounded-xl text-xl font-light hover:bg-[#FF7757] hover:shadow-lg transition duration-300 ease-in-out;
+}
+
+@utility btn-ghost {
+  @apply font-light mr-2 text-xl hover:bg-transparent border-0 shadow-none text-white hover:border-b-2 border-[#FF7757] transition duration-300 ease-in-out;
+}
