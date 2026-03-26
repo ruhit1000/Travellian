@@ -7,10 +7,12 @@ import axios from 'axios';
 import Skeleton from './components/Skeleton/Skeleton';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import Blog from './components/Blog/Blog';
+import GuidedTours from './components/GuidedTours/GuidedTours';
 
 const destinationsPromise = axios.get('/popularDestination.json');
 const specialOfferPromise = axios.get('/specialOffers.json');
 const blogPostsPromise = axios.get('/blogPosts.json');
+const guidedToursPromise = axios.get('/guidedTours.json');
 
 const App = () => {
   return (
@@ -31,6 +33,10 @@ const App = () => {
 
         <Suspense fallback={<Skeleton />}>
           <Blog blogPostsPromise={blogPostsPromise} />
+        </Suspense>
+
+        <Suspense fallback={<Skeleton />}>
+          <GuidedTours guidedToursPromise={guidedToursPromise} />
         </Suspense>
       </main>
     </>

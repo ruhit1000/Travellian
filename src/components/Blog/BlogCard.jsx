@@ -4,8 +4,11 @@ import { GoArrowRight } from 'react-icons/go';
 const BlogCard = ({ post }) => {
     return (
         <div className='grid lg:grid-cols-2 gap-5 items-center w-full shrink-0'>
-            <div>
-                <img className='w-full h-80 lg:h-135 xl:h-150 object-cover rounded-3xl' src={post.imageUrl} alt="" />
+            <div className="group overflow-hidden rounded-2xl">
+                <img
+                    src={post.imageUrl}
+                    className="transition-transform duration-500 group-hover:scale-110 object-cover w-full h-80 lg:h-135 xl:h-150 rounded-3xl"
+                />
             </div>
             <div className='space-y-4'>
                 <h2 className='font-playfair-display text-4xl text-[#172432]'>{post.title}</h2>
