@@ -11,11 +11,11 @@ const HeroSection = () => {
                 <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5 md:p-7 lg:py-12'>
                     <div>
                         <label className='text-[#767E86]' htmlFor="">DESTINATION</label><br />
-                        <input className='border-b-2 w-full pb-2' type="text" />
+                        <input className='border-b-2 w-full pb-2 font-playfair-display' type="text" />
                     </div>
                     <div>
                         <label className='text-[#767E86]' htmlFor="">PERSON</label><br />
-                        <select className='border-b-2 w-full pb-2' name="" id="">
+                        <select className='border-b-2 w-full pb-2 font-playfair-display' name="" id="">
                             <option value="">1 Person</option>
                             <option value="">2 People</option>
                             <option value="">3 People</option>
@@ -24,11 +24,11 @@ const HeroSection = () => {
                     </div>
                     <div>
                         <label className='text-[#767E86]' htmlFor="">CHECK IN</label><br />
-                        <input className='border-b-2 w-full pb-2' type="date" />
+                        <input className='border-b-2 w-full pb-2 font-playfair-display' type="date" />
                     </div>
                     <div>
                         <label className='text-[#767E86]' htmlFor="">CHECK OUT</label><br />
-                        <input className='border-b-2 w-full pb-2' type="date" />
+                        <input className='border-b-2 w-full pb-2 font-playfair-display' type="date" />
                     </div>
                 </div>
                 <div>

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "imageURL": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "destination_name": "Lisbon, Portugal",
+        "details": "5 nights and 4 days in a 5-star hotel, breakfast and lunch included. Very popular during the Renaissance. Explore the sites of the world in classical literature.",
+        "price": "$850"
+    },
+    {
+        "id": 2,
+        "imageURL": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Berlin, Germany",
+        "details": "4 nights and 3 days. Includes a historical walking tour, luxury suite, and full board. Discover the deep history and modern culture of the German capital.",
+        "price": "$720"
+    },
+    {
+        "id": 3,
+        "imageURL": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "London, United Kingdom",
+        "details": "6 nights and 5 days. Thames river cruise and afternoon tea included. Stay in the heart of the city with easy access to classical landmarks.",
+        "price": "$1,100"
+    },
+    {
+        "id": 4,
+        "imageURL": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Venice, Italy",
+        "details": "3 nights and 2 days. Private gondola ride and luxury canal-side accommodation. Experience the romantic waterways and Renaissance architecture.",
+        "price": "$950"
+    },
+    {
+        "id": 5,
+        "imageURL": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Paris, France",
+        "details": "5 nights and 4 days. Museum pass and gourmet dinner at the Eiffel Tower included. A journey through the world of art, fashion, and history.",
+        "price": "$1,250"
+    },
+    {
+        "id": 6,
+        "imageURL": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Tokyo, Japan",
+        "details": "7 nights and 6 days. Sushi making class and bullet train pass included. A perfect blend of neon-lit futurism and ancient Shinto traditions.",
+        "price": "$1,400"
+    },
+    {
+        "id": 7,
+        "imageURL": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Rome, Italy",
+        "details": "4 nights and 3 days. Colosseum priority access and authentic pasta workshop included. Walk through the living museum of the Roman Empire.",
+        "price": "$890"
+    },
+    {
+        "id": 8,
+        "imageURL": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Santorini, Greece",
+        "details": "5 nights and 4 days. Sunset yacht tour and cliffside villa with a private pool. Famous for blue domes and breathtaking Mediterranean views.",
+        "price": "$1,600"
+    },
+    {
+        "id": 9,
+        "imageURL": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "New York, USA",
+        "details": "4 nights and 3 days. Broadway show tickets and Times Square hotel stay. Experience the energy of the city that never sleeps.",
+        "price": "$1,050"
+    },
+    {
+        "id": 10,
+        "imageURL": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+        "destination_name": "Kyoto, Japan",
+        "details": "6 nights and 5 days. Traditional tea ceremony and Zen garden tour. Stay in a classic Ryokan for an authentic cultural immersion.",
+        "price": "$1,200"
+    }
+]

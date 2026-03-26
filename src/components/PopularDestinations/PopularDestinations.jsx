@@ -11,7 +11,7 @@ const PopularDestinations = ({ destinationsPromise }) => {
 
     const handleScroll = (direction) => {
         if (scrollRef.current) {
-            const scrollAmount = 360;
+            const scrollAmount = 400;
             scrollRef.current.scrollBy({
                 left: direction === 'left' ? -scrollAmount : scrollAmount,
                 behavior: 'smooth'
@@ -23,7 +23,8 @@ const PopularDestinations = ({ destinationsPromise }) => {
     return (
         <div className='py-20 px-4'>
             <div>
-                <h2 className='font-playfair-display text-4xl border-b-4 border-[#FF7757] pb-3 mr-10'>Popular Destinations</h2>
+                <h2 className='font-playfair-display text-4xl pb-3 mr-10'>Popular Destinations</h2>
+                <hr className='border-b-2 border-[#FF7757] max-w-62.5' />
                 <div className='flex justify-between'>
                     <p className='font-rubik text-lg text-[#767E86] mt-8 mb-15'>Most popular destinations around the world, from historical places to natural wonders.</p>
                     <div className='hidden lg:flex items-end justify-end py-10'>
