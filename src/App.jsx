@@ -10,6 +10,8 @@ import Blog from './components/Blog/Blog';
 import GuidedTours from './components/GuidedTours/GuidedTours';
 import DestinationGallery from './components/DestinationGallery/DestinationGallery';
 import Review from './components/Review/Review';
+import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 const destinationsPromise = axios.get('/popularDestination.json');
 const specialOfferPromise = axios.get('/specialOffers.json');
@@ -50,7 +52,11 @@ const App = () => {
         <Suspense fallback={<Skeleton />}>
           <Review reviewsPromise={reviewsPromise} />
         </Suspense>
+
+        <Newsletter />
       </main>
+
+      <Footer />
     </>
   );
 };
