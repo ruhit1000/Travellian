@@ -6,9 +6,11 @@ import PopularDestinations from './components/PopularDestinations/PopularDestina
 import axios from 'axios';
 import Skeleton from './components/Skeleton/Skeleton';
 import SpecialOffer from './components/SpecialOffer/SpecialOffer';
+import Blog from './components/Blog/Blog';
 
 const destinationsPromise = axios.get('/popularDestination.json');
 const specialOfferPromise = axios.get('/specialOffers.json');
+const blogPostsPromise = axios.get('/blogPosts.json');
 
 const App = () => {
   return (
@@ -25,6 +27,10 @@ const App = () => {
         
         <Suspense fallback={<Skeleton />}>
           <SpecialOffer specialOfferPromise={specialOfferPromise} />
+        </Suspense>
+
+        <Suspense fallback={<Skeleton />}>
+          <Blog blogPostsPromise={blogPostsPromise} />
         </Suspense>
       </main>
     </>
