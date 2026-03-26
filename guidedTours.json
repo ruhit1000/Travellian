@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80",
+        "price": "$120/Day",
+        "name": "Rome City Tour",
+        "duration": "4-5 days",
+        "highlight": true
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80",
+        "price": "$150/Day",
+        "name": "Paris Highlights Tour",
+        "duration": "3-5 days",
+        "highlight": true
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80",
+        "price": "$110/Day",
+        "name": "Tokyo Neon Nights",
+        "duration": "5-7 days",
+        "highlight": true
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+        "price": "$140/Day",
+        "name": "London Heritage Walk",
+        "duration": "4-6 days",
+        "highlight": true
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=800&q=80",
+        "price": "$135/Day",
+        "name": "Venice Canal Journey",
+        "duration": "3-4 days",
+        "highlight": false
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=800&q=80",
+        "price": "$95/Day",
+        "name": "Berlin History Tour",
+        "duration": "3-5 days",
+        "highlight": false
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=800&q=80",
+        "price": "$160/Day",
+        "name": "New York Skyline Tour",
+        "duration": "4-7 days",
+        "highlight": false
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&w=800&q=80",
+        "price": "$85/Day",
+        "name": "Lisbon Street Magic",
+        "duration": "3-5 days",
+        "highlight": false
+    },
+    {
+        "id": 9,
+        "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+        "price": "$105/Day",
+        "name": "Kyoto Temple Trail",
+        "duration": "5-6 days",
+        "highlight": false
+    },
+    {
+        "id": 10,
+        "imageUrl": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=800&q=80",
+        "price": "$180/Day",
+        "name": "Santorini Sunset Tour",
+        "duration": "3-4 days",
+        "highlight": false
+    }
+]
