@@ -35,7 +35,7 @@ const DestinationGallery = ({ destinationGalleryPromise }) => {
                 </div>
             </div>
             <div>
-                <div className='flex gap-8 pt-10 px-4 overflow-x-auto scrollbar-hide' ref={scrollRef}>
+                <div className='flex gap-8 pt-10 overflow-x-auto scrollbar-hide' ref={scrollRef}>
                     {destinationGallery?.map((destination) => (
                         <ImageComponent key={destination.id} imageUrl={destination.imageUrl} />
                     ))}

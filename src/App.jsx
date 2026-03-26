@@ -9,12 +9,14 @@ import SpecialOffer from './components/SpecialOffer/SpecialOffer';
 import Blog from './components/Blog/Blog';
 import GuidedTours from './components/GuidedTours/GuidedTours';
 import DestinationGallery from './components/DestinationGallery/DestinationGallery';
+import Review from './components/Review/Review';
 
 const destinationsPromise = axios.get('/popularDestination.json');
 const specialOfferPromise = axios.get('/specialOffers.json');
 const blogPostsPromise = axios.get('/blogPosts.json');
 const guidedToursPromise = axios.get('/guidedTours.json');
 const destinationGalleryPromise = axios.get('/destinationGallery.json');
+const reviewsPromise = axios.get('/reviewData.json');
 
 const App = () => {
   return (
@@ -43,6 +45,10 @@ const App = () => {
 
         <Suspense fallback={<Skeleton />}>
           <DestinationGallery destinationGalleryPromise={destinationGalleryPromise} />
+        </Suspense>
+
+        <Suspense fallback={<Skeleton />}>
+          <Review reviewsPromise={reviewsPromise} />
         </Suspense>
       </main>
     </>
