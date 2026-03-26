@@ -27,36 +27,36 @@
         "id": 5,
         "name": "Eiffel Tower",
         "location": "Paris, France",
-        "imageURL": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=50&w=800&auto=format&fit=crop"
     },
     {
         "id": 6,
         "name": "Shibuya Crossing",
         "location": "Tokyo, Japan",
-        "imageURL": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=50&w=800&auto=format&fit=crop"
     },
     {
         "id": 7,
         "name": "Santorini Sunsets",
         "location": "Oia, Greece",
-        "imageURL": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=50&w=800&auto=format&fit=crop"
     },
     {
         "id": 8,
         "name": "Statue of Liberty",
         "location": "New York, USA",
-        "imageURL": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=50&w=800&auto=format&fit=crop"
     },
     {
         "id": 9,
         "name": "Sydney Opera House",
         "location": "Sydney, Australia",
-        "imageURL": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=50&w=800&auto=format&fit=crop"
     },
     {
         "id": 10,
         "name": "Fushimi Inari Shrine",
         "location": "Kyoto, Japan",
-        "imageURL": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop"
+        "imageURL": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=50&w=800&auto=format&fit=crop"
     }
 ]

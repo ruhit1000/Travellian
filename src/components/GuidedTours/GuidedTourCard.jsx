@@ -15,6 +15,8 @@ const GuidedTourCard = ({ tour }) => {
                     className='w-full h-70 lg:h-full object-cover rounded-3xl'
                     src={tour.imageUrl}
                     alt={tour.name}
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
 

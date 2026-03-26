@@ -7,6 +7,7 @@ const OfferCard = ({ imageURL, name, details, price }) => {
                 <img
                     src={imageURL}
                     className="rounded-t-3xl transition-transform duration-500 group-hover:scale-110 object-cover w-full h-full"
+                    loading="lazy" decoding="async"
                 />
             </div>
             <div className='p-5'>

@@ -8,6 +8,8 @@ const BlogCard = ({ post }) => {
                 <img
                     src={post.imageUrl}
                     className="transition-transform duration-500 group-hover:scale-110 object-cover w-full h-80 lg:h-135 xl:h-150 rounded-3xl"
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
             <div className='space-y-4'>
