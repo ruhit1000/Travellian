@@ -75,8 +75,5 @@ src/
 ## 👨‍💻 Author
 
 **Ruhit**
-* Student at **Comilla University**
 * Full-Stack Web Development Enthusiast
-* [GitHub](https://github.com/your-profile) | [LinkedIn](https://linkedin.com/in/your-profile)
-
----
+* [GitHub](https://github.com/ruhit1000) | [LinkedIn](https://www.linkedin.com/in/ruhit-paul/)
